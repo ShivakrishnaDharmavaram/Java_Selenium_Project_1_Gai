@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/New folder/GrowAI_Practice/Java_Selenium_Project_1_Gai">
+        <classes>
+            <class name="com.growai.assignment1.javaseleniumproject.LoginTest">
+                <methods>
+                    <include name="Testcase1_Valid_Login_Test"/>
+                    <include name="Testcase2_Invalid_Login_Test"/>
+                    <include name="Testcase3_Empty_Login_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
